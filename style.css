@@ -45,9 +45,11 @@ body {
   font-size: 35px;
 }
 .syllabusSection {
-  margin-top: 30px;
   box-shadow: 0px 0px 7px #d7cdcd;
   border-radius: 10px;
+}
+.headerSection {
+  margin: 25px 0;
 }
 /*  */
 .rightSection {
@@ -79,11 +81,14 @@ body {
   color: rgb(48, 48, 48);
   font-size: 15px;
 }
+.cartSection p span {
+  padding-right: 6px;
+}
 .rightSection:hover img {
   transform: scale(1.1);
 }
 .valitidyPara span {
-  padding: 5px;
+  padding-right: 10px;
 }
 .accordionParent {
   border-bottom: 0.5px solid gray;
@@ -218,13 +223,17 @@ body {
     font-size: 28px;
     line-height: 1.5;
   }
-  .imageFlow {
-    width: 297px;
-  }
   .leftSection {
     width: 100%;
   }
-  .rightSection {
-    width: 100%;
+
+  .imageFlow {
+    width: fit-content;
+  }
+  .accordionHeader div p {
+    padding-left: 0;
+  }
+  .accordionHeader div h3 {
+    font-size: 12px;
   }
 }
